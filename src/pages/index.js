@@ -1,5 +1,5 @@
 import React from "react"
-
+import { Link } from "gatsby"
 const IndexPage = () => {
   return (
     <div>
@@ -7,6 +7,9 @@ const IndexPage = () => {
       <h2>
         I am Ralph, a full-stack developer that wants to learn everything.
       </h2>
+      <p>
+        Need a developer? <Link to="/contact">Contact Me!</Link>
+      </p>
     </div>
   )
 }
