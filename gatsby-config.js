@@ -8,7 +8,7 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: "Ralphs Gatsby Learning!",
-    author: "Ralph King JR",
+    author: "Ralph King JR"
   },
   plugins: [
     "gatsby-plugin-sass",
@@ -16,8 +16,9 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "src",
-        path: `${__dirname}/src/`,
-      },
+        path: `${__dirname}/src/`
+      }
     },
-  ],
+    "gatsby-transformer-remark"
+  ]
 }
